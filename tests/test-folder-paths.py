@@ -1,4 +1,9 @@
-# Determine: How configurations and structures to be generaed between OS
+# Test Example copied closely from: https://web.learnmodernpython.com/python-project-scaffolding-automate-folder-creation/
+
+# Used example script as a learning example, need specification on many aspects as I am lacking fundamental knowledge and understanding.
+
+# How did they know when to call certain functions and why does it work?
+
 import os
 from pathlib import Path
 
