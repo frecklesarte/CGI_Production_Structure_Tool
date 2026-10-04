@@ -1,4 +1,3 @@
-import ui
-import directory_generation
-
+from ui.main_window import root
+from directory_generation
 
