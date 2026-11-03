@@ -1,12 +1,13 @@
-import os
-from os import path
-from os.path import dirname, expanduser
-import pathlib as path
+#   This software is licensed as free and open-source through use of the GPL License
+#   Authors: David Valencia (Freckles Arte) of Artist First Productions
 
-## Dynamically check the home directory on various operating systems..
- # Output: /home/username (Linux) or C:\Users\username(Windows)
-class check_home_directory():
+from ui.main_window import root
+from directory_generation.home_directory_validator import DirEntry
+from folder_structures.pre_production_folders import preproduction_folders as preproduction
+#from folder-structures.production-folders import list_production_folders
+#from folder-structures.post-production-folders import list_postproduction_folders
 
-    home = expanduser("~")
+class startup_application(root, DirEntry):
 
-    print(home)
+    print("packages are being loaded for the main application")
+
